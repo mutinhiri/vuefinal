@@ -1,10 +1,13 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <amplify-authenticator></amplify-authenticator>
+    <!-- <amplify-sign-out></amplify-sign-out> -->
   </div>
 </template>
 
 <script>
+import { Auth } from 'aws-amplify';
+
 export default {
   name: 'HelloWorld',
   props: {

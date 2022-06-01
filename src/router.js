@@ -10,7 +10,7 @@ const router = new Router({
   routes: [
     {
       path: '/about',
-      name: 'AboutComp',
+      name: 'about',
       component: AboutComp
     }
   ]

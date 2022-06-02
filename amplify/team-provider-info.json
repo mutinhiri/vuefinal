@@ -14,6 +14,12 @@
     "categories": {
       "auth": {
         "vuefinal885af9f8": {}
+      },
+      "function": {
+        "vueYoutube": {
+          "deploymentBucketName": "amplify-vuefinal-dev-144103-deployment",
+          "s3Key": "amplify-builds/vueYoutube-7168796b714868636d68-build.zip"
+        }
       }
     }
   }

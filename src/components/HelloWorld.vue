@@ -8,6 +8,8 @@
         <router-link to="/about"> About page</router-link>
         <img  alt="Vue logo" src="../assets/logo.png">
         <router-view></router-view>
+        <input type="file" class="picker">
+        <!-- <button>Pick an image</button> -->
         <amplify-sign-out></amplify-sign-out>
     </div>
     {{ signedIn }} 
@@ -73,5 +75,9 @@ li {
 }
 a {
   color: #42b983;
+}
+.picker {
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 </style>

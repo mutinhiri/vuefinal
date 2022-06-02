@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-vuefinal-dev-144103-authRole",
+      "UnauthRoleArn": "arn:aws:iam::086868765009:role/amplify-vuefinal-dev-144103-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::086868765009:role/amplify-vuefinal-dev-144103-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-vuefinal-dev-144103-deployment",
+      "UnauthRoleName": "amplify-vuefinal-dev-144103-unauthRole",
+      "StackName": "amplify-vuefinal-dev-144103",
+      "StackId": "arn:aws:cloudformation:us-east-1:086868765009:stack/amplify-vuefinal-dev-144103/1c30d380-e1a8-11ec-93f7-0a87a2f68465",
+      "AmplifyAppId": "dtfor8q745hbs"
+    },
+    "categories": {
+      "auth": {
+        "vuefinal885af9f8": {}
+      },
+      "function": {
+        "vueYoutube": {
+          "deploymentBucketName": "amplify-vuefinal-dev-144103-deployment",
+          "s3Key": "amplify-builds/vueYoutube-7168796b714868636d68-build.zip"
+        }
+      }
+    }
+  }
+}

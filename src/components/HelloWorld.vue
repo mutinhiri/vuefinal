@@ -4,6 +4,8 @@
       <amplify-authenticator></amplify-authenticator>
     </div> 
     <div v-if="signedIn">
+        <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+        <img  alt="Vue logo" src="../assets/logo.png">
         <amplify-sign-out></amplify-sign-out>
     </div>
     {{ signedIn }} 

@@ -5,7 +5,9 @@
     </div> 
     <div v-if="signedIn">
         <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+        <router-link to="/about"> About page</router-link>
         <img  alt="Vue logo" src="../assets/logo.png">
+        <router-view></router-view>
         <amplify-sign-out></amplify-sign-out>
     </div>
     {{ signedIn }} 

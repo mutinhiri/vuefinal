@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <router-link to="/about">About </router-link>
+    <!-- <router-link to="/about">About </router-link> -->
     <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <router-view></router-view>
+    <!-- <router-view></router-view> -->
   </div>
   
 </template>
